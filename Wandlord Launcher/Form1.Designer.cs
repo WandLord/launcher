@@ -78,6 +78,7 @@ namespace Wandlord_Launcher
             // 
             // btnWebSite
             // 
+            this.btnWebSite.FlatAppearance.BorderSize = 3;
             resources.ApplyResources(this.btnWebSite, "btnWebSite");
             this.btnWebSite.Name = "btnWebSite";
             this.btnWebSite.UseVisualStyleBackColor = true;
@@ -85,6 +86,7 @@ namespace Wandlord_Launcher
             // 
             // btnPlay
             // 
+            this.btnPlay.FlatAppearance.BorderSize = 3;
             resources.ApplyResources(this.btnPlay, "btnPlay");
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.UseVisualStyleBackColor = true;
@@ -96,6 +98,7 @@ namespace Wandlord_Launcher
             // 
             // btnAccount
             // 
+            this.btnAccount.FlatAppearance.BorderSize = 3;
             resources.ApplyResources(this.btnAccount, "btnAccount");
             this.btnAccount.Name = "btnAccount";
             this.btnAccount.UseVisualStyleBackColor = true;
@@ -103,6 +106,7 @@ namespace Wandlord_Launcher
             // 
             // btnPatchNotes
             // 
+            this.btnPatchNotes.FlatAppearance.BorderSize = 3;
             resources.ApplyResources(this.btnPatchNotes, "btnPatchNotes");
             this.btnPatchNotes.Name = "btnPatchNotes";
             this.btnPatchNotes.UseVisualStyleBackColor = true;
@@ -110,6 +114,7 @@ namespace Wandlord_Launcher
             // 
             // btnPathSelect
             // 
+            this.btnPathSelect.FlatAppearance.BorderSize = 3;
             resources.ApplyResources(this.btnPathSelect, "btnPathSelect");
             this.btnPathSelect.Name = "btnPathSelect";
             this.btnPathSelect.UseVisualStyleBackColor = true;
