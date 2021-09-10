@@ -1,0 +1,12 @@
+M:\Wandlord\launcher\Wandlord Launcher\bin\Release\Wandlord.exe.config
+M:\Wandlord\launcher\Wandlord Launcher\bin\Release\Wandlord.exe
+M:\Wandlord\launcher\Wandlord Launcher\bin\Release\Wandlord.pdb
+M:\Wandlord\launcher\Wandlord Launcher\bin\Release\aa\Wandlord.resources.dll
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord_Launcher.Home.resources
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord_Launcher.Properties.Resources.resources
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord_Launcher.Home.aa.resources
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord Launcher.csproj.GenerateResource.cache
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord Launcher.csproj.CoreCompileInputs.cache
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\aa\Wandlord.resources.dll
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord.exe
+M:\Wandlord\launcher\Wandlord Launcher\obj\Release\Wandlord.pdb

@@ -1,13 +1,12 @@
-M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\Wandlord Launcher.exe.config
-M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\Wandlord Launcher.exe
-M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\Wandlord Launcher.pdb
-M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord Launcher.csproj.AssemblyReference.cache
 M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord_Launcher.Properties.Resources.resources
 M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord Launcher.csproj.GenerateResource.cache
 M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord Launcher.csproj.CoreCompileInputs.cache
-M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord Launcher.exe
-M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord Launcher.pdb
-M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\aa\Wandlord Launcher.resources.dll
-M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\aa\Wandlord Launcher.resources.dll
 M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord_Launcher.Home.resources
 M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord_Launcher.Home.aa.resources
+M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\Wandlord.exe.config
+M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\Wandlord.exe
+M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\Wandlord.pdb
+M:\Wandlord\launcher\Wandlord Launcher\bin\Debug\aa\Wandlord.resources.dll
+M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\aa\Wandlord.resources.dll
+M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord.exe
+M:\Wandlord\launcher\Wandlord Launcher\obj\Debug\Wandlord.pdb

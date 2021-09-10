@@ -109,7 +109,7 @@ namespace Wandlord_Launcher
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Wandlord_Launcher.Properties.Resources.bg_launcher1;
+            this.BackgroundImage = global::Wandlord_Launcher.Properties.Resources.BGLAUNCHER;
             this.ControlBox = false;
             this.Controls.Add(this.btnPatchNotes);
             this.Controls.Add(this.btnAccount);

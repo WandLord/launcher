@@ -93,6 +93,16 @@ namespace Wandlord_Launcher.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BGLAUNCHER {
+            get {
+                object obj = ResourceManager.GetObject("BGLAUNCHER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Wl {
             get {
                 object obj = ResourceManager.GetObject("Wl", resourceCulture);

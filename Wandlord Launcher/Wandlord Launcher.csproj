@@ -7,7 +7,7 @@
     <ProjectGuid>{C587FADD-4443-4798-B6B5-8DE47015B4FE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Wandlord_Launcher</RootNamespace>
-    <AssemblyName>Wandlord Launcher</AssemblyName>
+    <AssemblyName>Wandlord</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>wandlord.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -102,6 +105,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bg-launcher.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BGLAUNCHER.jpg" />
+    <Content Include="wandlord.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
