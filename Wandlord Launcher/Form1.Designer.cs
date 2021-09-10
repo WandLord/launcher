@@ -36,11 +36,8 @@ namespace Wandlord_Launcher
             this.version = new System.Windows.Forms.Label();
             this.btnWebSite = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.btnAccount = new System.Windows.Forms.Button();
             this.btnPatchNotes = new System.Windows.Forms.Button();
-            this.btnPathSelect = new System.Windows.Forms.Button();
-            this.textPath = new System.Windows.Forms.TextBox();
             this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
             this.topBar.SuspendLayout();
             this.SuspendLayout();
@@ -90,11 +87,7 @@ namespace Wandlord_Launcher
             resources.ApplyResources(this.btnPlay, "btnPlay");
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.UseVisualStyleBackColor = true;
-            // 
-            // progressBar1
-            // 
-            resources.ApplyResources(this.progressBar1, "progressBar1");
-            this.progressBar1.Name = "progressBar1";
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnAccount
             // 
@@ -112,31 +105,14 @@ namespace Wandlord_Launcher
             this.btnPatchNotes.UseVisualStyleBackColor = true;
             this.btnPatchNotes.Click += new System.EventHandler(this.PatchNotes_Click);
             // 
-            // btnPathSelect
-            // 
-            this.btnPathSelect.FlatAppearance.BorderSize = 3;
-            resources.ApplyResources(this.btnPathSelect, "btnPathSelect");
-            this.btnPathSelect.Name = "btnPathSelect";
-            this.btnPathSelect.UseVisualStyleBackColor = true;
-            this.btnPathSelect.Click += new System.EventHandler(this.btnPathSelect_Click);
-            // 
-            // textPath
-            // 
-            resources.ApplyResources(this.textPath, "textPath");
-            this.textPath.Name = "textPath";
-            this.textPath.ReadOnly = true;
-            // 
             // Home
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Wandlord_Launcher.Properties.Resources.bg_launcher1;
             this.ControlBox = false;
-            this.Controls.Add(this.textPath);
-            this.Controls.Add(this.btnPathSelect);
             this.Controls.Add(this.btnPatchNotes);
             this.Controls.Add(this.btnAccount);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnWebSite);
             this.Controls.Add(this.version);
@@ -158,11 +134,8 @@ namespace Wandlord_Launcher
         private System.Windows.Forms.Label version;
         private System.Windows.Forms.Button btnWebSite;
         private System.Windows.Forms.Button btnPlay;
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button btnAccount;
         private System.Windows.Forms.Button btnPatchNotes;
-        private System.Windows.Forms.Button btnPathSelect;
-        private System.Windows.Forms.TextBox textPath;
         private System.Windows.Forms.FolderBrowserDialog folderBrowser;
     }
 }
