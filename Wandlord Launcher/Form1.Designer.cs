@@ -34,12 +34,16 @@ namespace Wandlord_Launcher
             this.btnMinimize = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.version = new System.Windows.Forms.Label();
-            this.btnWebSite = new System.Windows.Forms.Button();
-            this.btnPlay = new System.Windows.Forms.Button();
-            this.btnAccount = new System.Windows.Forms.Button();
-            this.btnPatchNotes = new System.Windows.Forms.Button();
             this.folderBrowser = new System.Windows.Forms.FolderBrowserDialog();
+            this.btnWebSite = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxPlay = new System.Windows.Forms.PictureBox();
             this.topBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnWebSite)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlay)).BeginInit();
             this.SuspendLayout();
             // 
             // topBar
@@ -75,35 +79,50 @@ namespace Wandlord_Launcher
             // 
             // btnWebSite
             // 
-            this.btnWebSite.FlatAppearance.BorderSize = 3;
+            this.btnWebSite.BackColor = System.Drawing.Color.Transparent;
+            this.btnWebSite.Image = global::Wandlord_Launcher.Properties.Resources.website;
             resources.ApplyResources(this.btnWebSite, "btnWebSite");
             this.btnWebSite.Name = "btnWebSite";
-            this.btnWebSite.UseVisualStyleBackColor = true;
+            this.btnWebSite.TabStop = false;
+            this.btnWebSite.Tag = "website";
             this.btnWebSite.Click += new System.EventHandler(this.openWebSite_Click);
+            this.btnWebSite.MouseEnter += new System.EventHandler(this.changeImage);
+            this.btnWebSite.MouseLeave += new System.EventHandler(this.changeImage);
             // 
-            // btnPlay
+            // pictureBox1
             // 
-            this.btnPlay.FlatAppearance.BorderSize = 3;
-            resources.ApplyResources(this.btnPlay, "btnPlay");
-            this.btnPlay.Name = "btnPlay";
-            this.btnPlay.UseVisualStyleBackColor = true;
-            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "account";
+            this.pictureBox1.Click += new System.EventHandler(this.Account_Click);
+            this.pictureBox1.MouseEnter += new System.EventHandler(this.changeImage);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.changeImage);
             // 
-            // btnAccount
+            // pictureBox2
             // 
-            this.btnAccount.FlatAppearance.BorderSize = 3;
-            resources.ApplyResources(this.btnAccount, "btnAccount");
-            this.btnAccount.Name = "btnAccount";
-            this.btnAccount.UseVisualStyleBackColor = true;
-            this.btnAccount.Click += new System.EventHandler(this.Account_Click);
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::Wandlord_Launcher.Properties.Resources.patchNotes;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "patchNotes";
+            this.pictureBox2.Click += new System.EventHandler(this.PatchNotes_Click);
+            this.pictureBox2.MouseEnter += new System.EventHandler(this.changeImage);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.changeImage);
             // 
-            // btnPatchNotes
+            // pictureBoxPlay
             // 
-            this.btnPatchNotes.FlatAppearance.BorderSize = 3;
-            resources.ApplyResources(this.btnPatchNotes, "btnPatchNotes");
-            this.btnPatchNotes.Name = "btnPatchNotes";
-            this.btnPatchNotes.UseVisualStyleBackColor = true;
-            this.btnPatchNotes.Click += new System.EventHandler(this.PatchNotes_Click);
+            this.pictureBoxPlay.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxPlay.Image = global::Wandlord_Launcher.Properties.Resources.download;
+            resources.ApplyResources(this.pictureBoxPlay, "pictureBoxPlay");
+            this.pictureBoxPlay.Name = "pictureBoxPlay";
+            this.pictureBoxPlay.TabStop = false;
+            this.pictureBoxPlay.Tag = "download";
+            this.pictureBoxPlay.Click += new System.EventHandler(this.btnPlay_Click);
+            this.pictureBoxPlay.MouseEnter += new System.EventHandler(this.changeImage);
+            this.pictureBoxPlay.MouseLeave += new System.EventHandler(this.changeImage);
             // 
             // Home
             // 
@@ -111,9 +130,9 @@ namespace Wandlord_Launcher
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Wandlord_Launcher.Properties.Resources.BGLAUNCHER;
             this.ControlBox = false;
-            this.Controls.Add(this.btnPatchNotes);
-            this.Controls.Add(this.btnAccount);
-            this.Controls.Add(this.btnPlay);
+            this.Controls.Add(this.pictureBoxPlay);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnWebSite);
             this.Controls.Add(this.version);
             this.Controls.Add(this.topBar);
@@ -121,6 +140,10 @@ namespace Wandlord_Launcher
             this.MaximizeBox = false;
             this.Name = "Home";
             this.topBar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnWebSite)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPlay)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,11 +155,11 @@ namespace Wandlord_Launcher
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnMinimize;
         private System.Windows.Forms.Label version;
-        private System.Windows.Forms.Button btnWebSite;
-        private System.Windows.Forms.Button btnPlay;
-        private System.Windows.Forms.Button btnAccount;
-        private System.Windows.Forms.Button btnPatchNotes;
         private System.Windows.Forms.FolderBrowserDialog folderBrowser;
+        private System.Windows.Forms.PictureBox btnWebSite;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBoxPlay;
     }
 }
 

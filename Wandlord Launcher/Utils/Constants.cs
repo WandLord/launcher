@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.IO;
 using System.Runtime.InteropServices;
 using Wandlord_Launcher.Managers;
 using Version = Wandlord_Launcher.Models.Version;
@@ -12,12 +13,12 @@ namespace Wandlord_Launcher.Utils
         public static readonly Color BTN_TEXT_COLOR_TOPBAR = Color.FromArgb(253, 192, 55);
         public static readonly Color BTN_BG_COLOR = Color.FromArgb(253, 192, 55); 
         public static readonly Color BTN_TEXT_COLOR = Color.FromArgb(54, 3, 30);
-        public static readonly string LOCAL_VERSION_PATH = @".version";
-        public static readonly string LOCAL_ZIP_GAME_PATH = @"build.zip";
+        public static readonly string LOCAL_VERSION_PATH = @"./.version";
+        public static readonly string LOCAL_ZIP_GAME_PATH = @"./wandlord.zip";
         public static readonly string LOCAL_EXECUTABLE_PATH = @"./wandlord/Wandlord.exe";
         public static readonly string LOCAL_GAME_PATH = @"./wandlord";
         public static readonly string REMOTE_VERSION_URL = "https://drive.google.com/uc?export=download&id=1QTIId7Y86jTO4S-FSgCCVKdQfivWXkYN";
-        public static readonly string REMOTE_GAME_URL = "https://www.googleapis.com/drive/v3/files/1e-aRiX6E0uoV2r5CaEZBIbi4SAEmHhUM?alt=media&key=AIzaSyCwSDHuA-hXx8wLHByn3gAem9F-pvyJPrU";
+        public static readonly string REMOTE_GAME_URL = "https://github.com/WandLord/wandlord-game/archive/refs/heads/main.zip";
         public static readonly Version DEFAULT_VERSION = new Version("0.0.0");
         public static readonly Manager VERSION_MANAGER = new Manager();
         public static Version LOCAL_VERSION;

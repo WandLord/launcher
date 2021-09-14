@@ -178,16 +178,16 @@
     <value>NoControl</value>
   </data>
   <data name="btnMinimize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, -9</value>
+    <value>733, 0</value>
   </data>
   <data name="btnMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 35</value>
+    <value>40, 26</value>
   </data>
   <data name="btnMinimize.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="btnMinimize.Text" xml:space="preserve">
-    <value>_</value>
+    <value>-</value>
   </data>
   <data name="btnMinimize.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -211,10 +211,10 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>744, 0</value>
+    <value>779, 0</value>
   </data>
   <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>40, 26</value>
   </data>
   <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -264,32 +264,29 @@
   <data name="&gt;&gt;version.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="btnWebSite.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnWebSite.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 12pt, style=Bold</value>
-  </data>
+  <metadata name="folderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="btnWebSite.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnWebSite.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 345</value>
+    <value>12, 327</value>
   </data>
   <data name="btnWebSite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 37</value>
+    <value>145, 43</value>
+  </data>
+  <data name="btnWebSite.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
   </data>
   <data name="btnWebSite.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnWebSite.Text" xml:space="preserve">
-    <value>Web Site</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;btnWebSite.Name" xml:space="preserve">
     <value>btnWebSite</value>
   </data>
   <data name="&gt;&gt;btnWebSite.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnWebSite.Parent" xml:space="preserve">
     <value>$this</value>
@@ -297,105 +294,113 @@
   <data name="&gt;&gt;btnWebSite.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="btnPlay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAJEAAAArCAYAAAB4iWowAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EgAACxIB0t1+/AAABLpJREFUeF7tnL+O1UYUh5F4gX2ACIFQogCCRFE26eEBWGqk1Eg0FBRpaVKmSZdq
+        O6oICZQmkdCWlDT0iCfYF1ic+S73kHOPf/b42l4vuvcUn9Z3zh97fH6eGVtrX2qappOPL24dFY4LJ8ne
+        Qv2PlD4M2ViCnhROC02SrEEPT5ReNn4Up4MC6lNJkgTQx4HXTRTQ27VjkvSBTj4LyYsoR6BkG042RFQa
+        WAMpx01e3m4+vrqT7DrUWdW/zWqNZCLqXkT//V1z9vqwOTv5Odk3St2pv9TFJ05XIiob3MYrh+bsnx90
+        8mS/KDpQ+lhzhIh4DtA2MgKphMle0jMiHXcuqHMKSzZgahM6KZwgovehcYVMlOw1SieFlYjaI1FZnask
+        yX7TcdfWIaJym6eSjOXXu980P12+0uLdn7lwPy/+eHizeXz49QbKbxtWt/9RK0uI6PTVoRQQ0FEVk0wH
+        0cTzrfy24cJEdPzoVqszxr2DqzImmc5OieiXG9dbnfH8+ywfJZwHOyOiD89/bHWE0cf//u3+tzLWg9Dw
+        sxODMNlmlGO6VDHGlNg3v3//OZbjBrZpw6ZifN8A/+hjx+Lx9mizHH89vd06FvrRF9uFjxnKhYgoTmUP
+        vrrWauNkqFhAhLWRjHg1mk2NVYWO4IOvj1U+3g4qt7dHG/4IN7Yb9LMrtgu/v6FciIhiETkR3JH5NlCF
+        ZJSgyNG3C59jyVh8/YgW7XOIaAg2Iimbwu9vKIuLSE1lVqxYJMQV49WVx90c0wh/Yw5GuTliVYF5RMGx
+        g3pc4YXSZzPGiIgL0kY9+hDtcT+1fYxhcRHFaQvsio1Fpqg+Vo1Wce5nfRB9EMncsYjGx4ISkj3ziu1z
+        iSiuweKFEM/hTogoTmX+ZKoi+ilFCTCuPRAkOT3knTs2Fg9oi34m1NhO7hhPW/Tz9miLAoFajpp9DIuK
+        SE1lTBl0DNSC109pajry+ftYKjb62fHHdvobY2sFjrYxOWr2MSwqInVF1/BX25QTsFRs9CO2r91T20+0
+        jclRs49hURGpkWYINqWpNUfcRxdTYnMk6mcxEampbChWCDWS2cLVYF2Dn4e1ytyxX8KaaO9EpArhF80e
+        1knez6Y0VSQTmNFV8Cmx53F3Bj4WAdd8om0uEbFv77Mti4koTmXqzsJQ04cJLgoM/LOeaPPPeqbEqpOP
+        aDguUALyRe67aaCIKh4sHqJtLhGxb7tYvO9QFhGRmso4cOULFCX62wmnowgw2rvg5FjeKbEUeptYfP0V
+        rka5iMpv8RBtY0TUdxwq3xAWEZE6cJ6/KF8j+nOCzTZEDNi9COaI5WJQRYrgE59BQV8sI2FNANGmil7L
+        wXF19V/lG8IiIlJDeW0eVsO7X0MRjzjxs/z85TcC7cs/JRYQGCMjJ52CANu0KfF5yG9x7Jdtu6DYtr4a
+        Pjba8Pd2qOUALiSO1deFqRshR98hLCKiZLfZ7n+sCypJst8onRR6RJTvnSWeyntn+QZsUqX2Bmy+i5/0
+        U3sXP78KknTCFNY9AsGnr4KsRZTfJ0r+Z8z3idZCkgvsJOlg80tpaxHlNxuToehvNjoh5YiU9IE+9Ndj
+        PcUpv2OdRIZ9xzpSgvKL+knli/rNpf8AMQ10dCi9SGQAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="btnPlay.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 24pt, style=Bold</value>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="btnPlay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 402</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 376</value>
   </data>
-  <data name="btnPlay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 66</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 43</value>
   </data>
-  <data name="btnPlay.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
   </data>
-  <data name="btnPlay.Text" xml:space="preserve">
-    <value>Update</value>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="&gt;&gt;btnPlay.Name" xml:space="preserve">
-    <value>btnPlay</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
-  <data name="&gt;&gt;btnPlay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnPlay.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnAccount.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnAccount.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 12pt, style=Bold</value>
-  </data>
-  <data name="btnAccount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 388</value>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 425</value>
   </data>
-  <data name="btnAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 37</value>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 43</value>
   </data>
-  <data name="btnAccount.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
   </data>
-  <data name="btnAccount.Text" xml:space="preserve">
-    <value>Account</value>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;btnAccount.Name" xml:space="preserve">
-    <value>btnAccount</value>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
   </data>
-  <data name="&gt;&gt;btnAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnAccount.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnAccount.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="btnPatchNotes.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPatchNotes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Black, 12pt, style=Bold</value>
-  </data>
-  <data name="btnPatchNotes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="pictureBoxPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnPatchNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 431</value>
+  <data name="pictureBoxPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 391</value>
   </data>
-  <data name="btnPatchNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 37</value>
+  <data name="pictureBoxPlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 77</value>
   </data>
-  <data name="btnPatchNotes.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="pictureBoxPlay.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
   </data>
-  <data name="btnPatchNotes.Text" xml:space="preserve">
-    <value>Patch Notes</value>
+  <data name="pictureBoxPlay.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="&gt;&gt;btnPatchNotes.Name" xml:space="preserve">
-    <value>btnPatchNotes</value>
+  <data name="&gt;&gt;pictureBoxPlay.Name" xml:space="preserve">
+    <value>pictureBoxPlay</value>
   </data>
-  <data name="&gt;&gt;btnPatchNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pictureBoxPlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnPatchNotes.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pictureBoxPlay.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnPatchNotes.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBoxPlay.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="folderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

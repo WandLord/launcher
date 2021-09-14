@@ -45,22 +45,22 @@ namespace Wandlord_Launcher
             {
                 if (Constants.LOCAL_VERSION.IsDifferentThan(Constants.REMOTE_VERSION))
                 {
-                    btnPlay.Text = "Update";
+                    pictureBoxPlay.Tag = "update";
                     status = StatusApp.Update;
                 }
                 else
                 {
-                    btnPlay.Text = "Play";
+                    pictureBoxPlay.Text = "play";
                     status = StatusApp.Play;
                 }
             }
             else
             {
-                btnPlay.Text = "Download";
+                pictureBoxPlay.Text = "download";
                 status = StatusApp.Download;
             }
             version.Text = Constants.LOCAL_VERSION.ToString();
-            btnPlay.Enabled = true;
+            pictureBoxPlay.Enabled = true;
         }
         private void InitConfig()
         {
@@ -72,31 +72,8 @@ namespace Wandlord_Launcher
             topBar.BackColor = Color.FromArgb(0, Color.Black);
             version.BackColor = Color.FromArgb(0, Color.Black);
             version.ForeColor = Constants.BTN_BG_COLOR;
-            BtnConfig();
-
         }
-        private void BtnConfig()
-        {
-            btnWebSite.Region = Region.FromHrgn(Constants.CreateRoundRectRgn(0, 0, btnWebSite.Width, btnWebSite.Height, 20, 20));
-            btnWebSite.BackColor = Constants.BTN_BG_COLOR;
-            btnWebSite.ForeColor = Constants.BTN_TEXT_COLOR;
-            btnWebSite.FlatAppearance.BorderSize = 5;
 
-            btnAccount.Region = Region.FromHrgn(Constants.CreateRoundRectRgn(0, 0, btnAccount.Width, btnAccount.Height, 20, 20));
-            btnAccount.BackColor = Constants.BTN_BG_COLOR;
-            btnAccount.ForeColor = Constants.BTN_TEXT_COLOR;
-            btnAccount.FlatAppearance.BorderSize = 5;
-
-            btnPatchNotes.Region = Region.FromHrgn(Constants.CreateRoundRectRgn(0, 0, btnPatchNotes.Width, btnPatchNotes.Height, 20, 20));
-            btnPatchNotes.BackColor = Constants.BTN_BG_COLOR;
-            btnPatchNotes.ForeColor = Constants.BTN_TEXT_COLOR;
-            btnPatchNotes.FlatAppearance.BorderSize = 5;
-
-            btnPlay.Region = Region.FromHrgn(Constants.CreateRoundRectRgn(0, 0, btnPlay.Width, btnPlay.Height, 20, 20));
-            btnPlay.BackColor = Constants.BTN_BG_COLOR;
-            btnPlay.ForeColor = Constants.BTN_TEXT_COLOR;
-            btnPlay.FlatAppearance.BorderSize = 5;
-        }
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -128,6 +105,15 @@ namespace Wandlord_Launcher
         {
             mov = 0;
         }
+
+        private void changeImage(object sender, EventArgs e)
+        {
+            PictureBox pic = sender as PictureBox;
+            string image = (pic.Tag.ToString().Contains("X"))? pic.Tag.ToString().Substring(0, pic.Tag.ToString().Length - 2) : pic.Tag.ToString() + "_X";
+            pic.Image = (Image)Properties.Resources.ResourceManager.GetObject(image, Properties.Resources.Culture);
+            pic.Tag = image;
+        }
+
         private void topBar_MouseDown(object sender, MouseEventArgs e)
         {
             mov = 1;
@@ -136,7 +122,7 @@ namespace Wandlord_Launcher
         }
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            btnPlay.Enabled = false;
+            pictureBoxPlay.Enabled = false;
             switch (status)
             {
                 case StatusApp.Play:

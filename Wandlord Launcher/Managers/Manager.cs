@@ -18,9 +18,10 @@ namespace Wandlord_Launcher.Managers
         }
         public void DownloadGame()
         {
+
             WebClient webClient = new WebClient();
-            webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);
             webClient.DownloadFileAsync(new Uri(Constants.REMOTE_GAME_URL), Constants.LOCAL_ZIP_GAME_PATH, Constants.REMOTE_VERSION);
+            webClient.DownloadFileCompleted += new AsyncCompletedEventHandler(DownloadGameCompletedCallback);
         }
         public void UpdateGame()
         {
@@ -32,6 +33,7 @@ namespace Wandlord_Launcher.Managers
         {
           try
             {
+                MessageBox.Show("Estoy dentro");
                 Console.WriteLine(Constants.LOCAL_ZIP_GAME_PATH);
                 string onlineVersion = ((Version)e.UserState).ToString();
                 ZipFile.ExtractToDirectory(Constants.LOCAL_ZIP_GAME_PATH, Directory.GetCurrentDirectory());

@@ -35,6 +35,13 @@
   <PropertyGroup>
     <ApplicationIcon>wandlord.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +55,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -73,6 +83,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -108,6 +120,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BGLAUNCHER.jpg" />
+    <None Include="Resources\Patch Notes.png" />
+    <None Include="Resources\Website.png" />
+    <None Include="Resources\Account.png" />
+    <None Include="Resources\Download.png" />
+    <None Include="Resources\Website X.png" />
+    <None Include="Resources\account_X.png" />
+    <None Include="Resources\account1.png" />
+    <None Include="Resources\patchNotes.png" />
+    <None Include="Resources\patchNotes_X.png" />
+    <None Include="Resources\download1.png" />
+    <None Include="Resources\download_X.png" />
     <Content Include="wandlord.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
